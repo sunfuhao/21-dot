@@ -1,0 +1,123 @@
+
+#container{
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: -260px;
+}
+.beforestar{
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    position: absolute;
+}
+#playGame{
+    display: none;
+    width: 166px;
+    height: 65px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: gray;
+    background: url(../images/star.jpg) no-repeat;
+    cursor:pointer;
+    }
+#canvas{
+    display: block;
+    margin: 20px auto;
+    border: 1px solid gray;
+  }
+
+#mainGame{
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    position: absolute;
+    display: none;
+}
+#starGame{
+    display: none;
+    width:106px;
+    height:46px;
+    position: absolute;
+    margin: auto;
+    right: 0;left: 0;
+    bottom: 0;
+    background: url(../images/split.jpg) no-repeat;
+    cursor:pointer;
+}
+#pit{
+    display: none;
+    width:100px;
+    height:46px;
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+    background: #00FFFF;
+    cursor:pointer;
+}
+#stand{
+    display: none;
+    width:100px;
+    height:46px;
+    position: absolute;
+    bottom: 0px;
+    left: 600px;
+    background: #00FFFF;
+    cursor:pointer;
+}
+#safe{
+    display: none;
+    width:100px;
+    height:30px;
+    position: absolute;
+    bottom: 180px;
+    left: 370px;
+    background: #FFA500;
+    cursor:pointer;
+}
+#unsafe{
+    display: none;
+    width:100px;
+    height:30px;
+    position: absolute;
+    bottom:180px;
+    left: 530px;
+    background: #FFA500;
+    cursor:pointer;
+}
+#scorebox{
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-size: 18px;
+    color: red;
+}
+#score{
+    text-align: center;
+}
+.waringbox{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+ }
+#warming{
+    display: none;
+    line-height: 60px;
+    border: 1px solid gray;
+    text-align: center;
+    vertical-align: middle;
+    background: #FFDAB9;
+ }

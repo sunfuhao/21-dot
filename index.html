@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <head>
+  <title>21点小游戏</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  </head>
+  <script type="text/javascript">
+  </script>
+  <body>
+    <div id="container">
+      <div class="beforestar">
+        <canvas id="canvas"></canvas>
+        <div id="playGame"></div>
+      </div>
+      <div id="mainGame">
+        <div id="starGame"></div>
+        <button id="pit">PIT</button>
+        <button id="stand">STAND</button>
+        <button id="safe">我要买保险</button>
+        <button id="unsafe">我不要买保险</button>
+        <div class="waringbox"><span id="warming"></span></div>
+        <div id="scorebox">我的积分：<span id="score"></span></div>
+      </div>
+      <audio src="./resource/bgaudio.mp3" id="mp3" loop = "infinite"></audio>
+      <script type="text/javascript" src="./js/init.js"></script>
+      <script type="text/javascript" src="./js/main.js"></script>
+  </div>
+  </body>
+</html>
